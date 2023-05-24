@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/nature\ 03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: #f0ead2;
+    text-shadow: 5px 0px 1px #242423;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+body {
+    color: #242423;
+    background-color: #f0ead2;
+    font-family: 'EB Garamond', serif;
+    margin: 0px 0px 0px 0px;
+}
+
+.information {
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.textbox {
+    text-align: center;
+    display: block;
+    padding: 10px 50px 50px 50px;
+    border: 3px solid #132a13;
+    border-radius: 2%;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 3%;
+    background-color: #31572c;
+    color: #f8f9fa;
+}
+
+.button {
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    border: 2px solid #132a13;
+    border-radius: 50px;
+    color: #f8f9fa;
+    background-color: #132a13;
+}
+
+.textboximage {
+    border: 3px solid #132a13;
+    border-radius: 2%;
+}
+
+.bottom {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #132a13;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.hyperlinks {
+    display: block;
+    text-align: center;
+    color: #f8f9fa;
+    padding: 10px 50px 10px 50px;
+    margin: 10px 50px 0px 50px;
+}
+
+.copyright {
+    color: #f8f9fa;
+    background-color: #132a13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
