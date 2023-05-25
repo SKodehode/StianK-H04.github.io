@@ -32,6 +32,36 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
+.video-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto 50px auto;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 28.125%; /* 16:9 aspect ratio (9 divided by 16 multiplied by 100) */
+    overflow: hidden;
+    margin: 0px auto 50px auto;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+
 .information {
     text-align: center;
     display: flex;
@@ -59,7 +89,7 @@ h2 {
 }
 
 .button {
-
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 50px 10px 50px;
